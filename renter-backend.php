@@ -90,7 +90,7 @@ if(!empty($_FILES['id_photo'])){
 	$password = md5($password);
 		$sql = "INSERT INTO tenant(full_name,email,password,phone_no,address,id_photo) VALUES('$full_name','$email','$password','$phone_no','$address','$path')";
 		if($db->query($sql)===TRUE){
-			header("location:tenant-login.php");
+			header("location:renter-login.php");
 	}
 }
 

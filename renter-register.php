@@ -51,14 +51,14 @@ include("navbar.php");
                             <img src="" id="output_image" height="200px" required>
                         </div>
                         <hr>
-                    </form>
                     <div class="or-box row-block">
                         <div class="row">
                             <div class="col-md-12 row-block">
-                                <a href="#" class="btn btn-primary btn-block">Create New Account</a>
+                                <button type="submit" class="btn btn-primary btn-block" name="tenant_register">Create New Account</button>
                             </div>
                         </div>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
